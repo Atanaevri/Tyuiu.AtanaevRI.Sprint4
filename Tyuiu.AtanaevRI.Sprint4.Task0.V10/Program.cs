@@ -16,7 +16,7 @@ for (int i = 0; i < array.Length;i++)
 
 
 Console.WriteLine("***************************************************************************");
-Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
+Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *"); 
 Console.WriteLine("***************************************************************************");
 int res = ds.GetSumOddArrEl(array);
 Console.WriteLine(res);
