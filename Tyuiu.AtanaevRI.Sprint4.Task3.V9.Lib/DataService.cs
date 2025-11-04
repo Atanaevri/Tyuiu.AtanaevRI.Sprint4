@@ -12,12 +12,11 @@ namespace Tyuiu.AtanaevRI.Sprint4.Task3.V9.Lib
             int sum = 0;
             for (int i = 0;i < rows;i++)
             {
-                for (int j = 0;j < colum;j++)
-                {
+               
                    
                    sum = sum + array[i, 1];
                     
-                }
+                
       
             }
             return sum;
