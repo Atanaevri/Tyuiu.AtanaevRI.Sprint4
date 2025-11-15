@@ -1,6 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-using Tyuiu.AtanaevRI.Sprint4.Task0.V10.Lib;
+﻿using Tyuiu.AtanaevRI.Sprint4.Task0.V10.Lib;
 DataService ds =   new DataService();
 Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ                                                         *");
 Console.WriteLine("***************************************************************************");
