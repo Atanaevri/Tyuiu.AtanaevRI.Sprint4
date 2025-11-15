@@ -16,13 +16,12 @@ namespace Tyuiu.AtanaevRI.Sprint4.Task6.V18.Test
                 "Попугай", "Рыбка", "Черепаха"
             };
 
-                string[] result = ds.GetElementsWithLengthMoreThanSix(inputArray);
-                string[] wait = { "Попугай", "Черепаха" }; // Элементы с длиной > 6
-
+                string[] result = ds.Calculate(inputArray);
+                string[] wait = { "Попугай", "Черепаха" }; 
                 CollectionAssert.AreEqual(wait, result);
             }
         }
     }
-}
-    }
-}
+
+   
+
